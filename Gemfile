@@ -36,3 +36,11 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+group :test do
+	gem 'rspec-rails'
+	gem 'database_cleaner'
+	gem 'factory_girl_rails', '~> 1.2'
+	gem 'ffaker'
+	gem 'shoulda'
+end
